@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Services from './pages/Services.jsx';
-import Register from './pages/Register.jsx';
-import Contact from './pages/Contact.jsx';
-import Login from './pages/Login';
+import Services from './pages/Services';
+import Register from './pages/Register';
+import Contact from './pages/Contact'; // Único import
 import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/servicos" element={<Services />} />
         <Route path="/cadastro" element={<Register />} />
-        <Route path="/login" element={<Login />} />
         <Route path="/contato" element={<Contact />} />
       </Routes>
       <Footer />
