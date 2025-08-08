@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './pages/Home';
-import Services from './pages/Services';
-import Register from './pages/Register';
-import Contact from './pages/Contact'; // Único import
+import Home from './pages/Home.jsx';
+import Services from './pages/Services.jsx';
+import Register from './pages/Register.jsx';
+import Contact from './pages/Contact.jsx';
 import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
