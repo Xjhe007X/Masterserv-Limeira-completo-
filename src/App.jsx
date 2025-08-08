@@ -7,7 +7,6 @@ import Services from './pages/Services.jsx';
 import Register from './pages/Register.jsx';
 import Contact from './pages/Contact.jsx';
 import Login from './pages/Login';
-import Contact from './pages/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
