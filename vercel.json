@@ -6,14 +6,15 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "build",
-        "nodeVersion": "20.x"  // ⚠️ Força o Vercel a usar Node 20
+        "installCommand": "npm install --legacy-peer-deps"
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "/index.html",
+      "status": 200
     }
   ]
 }
