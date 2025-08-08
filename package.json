@@ -28,5 +28,9 @@
   },
   "engines": {
     "node": "20.x"
+  },
+  "scripts": {
+  "build": "CI= npm run build && cp -r public/* build/",
+  "start": "react-scripts start"
   }
 }
